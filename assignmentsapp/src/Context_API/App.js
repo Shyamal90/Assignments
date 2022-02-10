@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Login from './Components/LogIn/Login';
+import Navbar from './Components/Navbar/Navbar';
+import Profile from './Components/Profile/Profile';
+
 
 function App() {
   return (
     <div>
-      <h1>Hello World....</h1>
+      <Navbar/>
+      <Profile/>
+      <Login/>
     </div>
   )
 }
