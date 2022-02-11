@@ -1,0 +1,21 @@
+.product_container{
+    width: 300px;
+    /* height: 400px; */
+    border: 1px solid rgb(224, 224, 224);
+    text-align: center;
+}
+
+
+.productImg{
+    width: 50%;
+    /* height: 40%; */
+    object-fit: contain;
+}
+
+.productsContainer{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 30px;
+    row-gap: 50px;
+    justify-content: center;
+}

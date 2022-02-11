@@ -1,0 +1,4 @@
+1. Creating Token
+2. Storing Token
+3. Requesting using that token from that moment on.
+
